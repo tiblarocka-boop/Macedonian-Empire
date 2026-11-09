@@ -1,16 +1,103 @@
+
 [
-    {
-        "name": "Tier 0 Era",
-        "researchAgreementCost": 150,
-        "startingSettlerCount": 1, 
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Rifleman",
-        "settlerPopulation": 1,
-        "baseUnitBuyCost": 200,
-        "embarkDefense": 3,
-        "startPercent": 0,
-        "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
-    }
+  {
+    "name": "Palaeolithic Era",
+    "researchAgreementCost": 100,
+    "iconRGB": [130, 110, 90]
+  },
+  {
+    "name": "Mesolithic Era",
+    "researchAgreementCost": 120,
+    "iconRGB": [145, 125, 100]
+  },
+  {
+    "name": "Neolithic Era",
+    "researchAgreementCost": 150,
+    "iconRGB": [170, 150, 110]
+  },
+  {
+    "name": "Chalcolithic Era",
+    "researchAgreementCost": 180,
+    "iconRGB": [190, 145, 100]
+  },
+  {
+    "name": "Bronze Age",
+    "researchAgreementCost": 220,
+    "iconRGB": [190, 125, 65]
+  },
+  {
+    "name": "Iron Age",
+    "researchAgreementCost": 260,
+    "iconRGB": [120, 120, 130]
+  },
+  {
+    "name": "Classical Balkan Era",
+    "researchAgreementCost": 300,
+    "iconRGB": [200, 175, 90]
+  },
+  {
+    "name": "Macedonian Era",
+    "researchAgreementCost": 340,
+    "iconRGB": [210, 175, 55]
+  },
+  {
+    "name": "Hellenistic Era",
+    "researchAgreementCost": 380,
+    "iconRGB": [190, 155, 220]
+  },
+  {
+    "name": "Roman Era",
+    "researchAgreementCost": 420,
+    "iconRGB": [175, 65, 65]
+  },
+  {
+    "name": "Migration Era",
+    "researchAgreementCost": 460,
+    "iconRGB": [120, 100, 80]
+  },
+  {
+    "name": "Byzantine Era",
+    "researchAgreementCost": 500,
+    "iconRGB": [150, 100, 190]
+  },
+  {
+    "name": "Medieval Balkan Era",
+    "researchAgreementCost": 540,
+    "iconRGB": [90, 135, 110]
+  },
+  {
+    "name": "Late Medieval Era",
+    "researchAgreementCost": 580,
+    "iconRGB": [100, 120, 150]
+  },
+  {
+    "name": "Ottoman Conquest Era",
+    "researchAgreementCost": 620,
+    "iconRGB": [90, 125, 75]
+  },
+  {
+    "name": "Ottoman Classical Era",
+    "researchAgreementCost": 660,
+    "iconRGB": [55, 125, 95]
+  },
+  {
+    "name": "Ottoman Decline Era",
+    "researchAgreementCost": 700,
+    "iconRGB": [130, 115, 90]
+  },
+  {
+    "name": "Balkan National Revival",
+    "researchAgreementCost": 740,
+    "iconRGB": [185, 110, 75]
+  },
+  {
+    "name": "Balkan Independence Era",
+    "researchAgreementCost": 780,
+    "iconRGB": [175, 65, 55]
+  },
+  {
+    "name": "Ottoman Collapse Era",
+    "researchAgreementCost": 820,
+    "iconRGB": [100, 100, 100]
+  }
 ]

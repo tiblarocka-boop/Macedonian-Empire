@@ -100,8 +100,8 @@
   {
     "name": "Ottoman Empire",
     "leaderName": "Mehmed II",
-    "outerColor": [74, 126, 93],
-    "innerColor": [24, 48, 34],
+    "outerColor": [83, 132, 101],
+    "innerColor": [23, 46, 33],
     "cities": ["Edirne", "Constantinople", "Bursa", "Istanbul", "Skopje", "Sofia", "Sarajevo", "Ioannina"]
   },
   {

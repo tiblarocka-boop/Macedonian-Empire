@@ -1,240 +1,108 @@
-
 [
   {
     "name": "Macedon",
     "leaderName": "Alexander the Great",
     "outerColor": [220, 180, 45],
     "innerColor": [35, 35, 35],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Pella",
-      "Aigai",
-      "Amphipolis",
-      "Thessalonica",
-      "Olynthus",
-      "Heraclea",
-      "Philippi",
-      "Dion"
-    ]
+    "cities": ["Pella", "Aegae", "Amphipolis", "Thessalonica", "Philippi", "Beroea", "Olynthus", "Stagira"]
   },
   {
     "name": "Paeonia",
     "leaderName": "Agis",
     "outerColor": [110, 150, 80],
     "innerColor": [35, 45, 25],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Stobi",
-      "Bylazora",
-      "Astibus",
-      "Idomene",
-      "Antigoneia"
-    ]
+    "cities": ["Bylazora", "Stobi", "Astibo", "Antigoneia", "Bilazora", "Doberus", "Idomenae"]
   },
   {
     "name": "Illyria",
     "leaderName": "Queen Teuta",
     "outerColor": [75, 125, 155],
     "innerColor": [25, 45, 65],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Scodra",
-      "Lissus",
-      "Rhizon",
-      "Epidamnos",
-      "Apollonia",
-      "Byllis",
-      "Amantia"
-    ]
+    "cities": ["Scodra", "Rhizon", "Lissus", "Dyrrhachium", "Apollonia", "Byllis", "Daorson"]
   },
   {
     "name": "Dardania",
     "leaderName": "Bato",
-    "outerColor": [130, 100, 75],
-    "innerColor": [55, 35, 25],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Ulpiana",
-      "Naissus",
-      "Scupi",
-      "Vicianum",
-      "Theranda"
-    ]
+    "outerColor": [136, 107, 84],
+    "innerColor": [53, 34, 24],
+    "cities": ["Ulpiana", "Naissus", "Scupi", "Damastion", "Vicianum", "Theranda"]
   },
   {
     "name": "Thrace",
     "leaderName": "Seuthes III",
     "outerColor": [170, 90, 75],
     "innerColor": [55, 30, 30],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Seuthopolis",
-      "Cabyle",
-      "Philippopolis",
-      "Perinthus",
-      "Bizye",
-      "Odessos",
-      "Mesembria"
-    ]
+    "cities": ["Seuthopolis", "Perperikon", "Kabyle", "Philippopolis", "Abdera", "Bizye", "Mesembria"]
   },
   {
     "name": "Epirus",
     "leaderName": "Pyrrhus",
     "outerColor": [150, 125, 85],
     "innerColor": [45, 40, 30],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Dodona",
-      "Ambracia",
-      "Passaron",
-      "Phoinike",
-      "Buthrotum",
-      "Gitana"
-    ]
+    "cities": ["Ambracia", "Dodona", "Passaron", "Phoinike", "Buthrotum", "Oricum", "Antigonea"]
   },
   {
     "name": "Athens",
     "leaderName": "Pericles",
     "outerColor": [80, 150, 190],
     "innerColor": [25, 45, 70],
-    "preferredVictoryType": "Scientific",
-    "cities": [
-      "Athens",
-      "Piraeus",
-      "Eleusis",
-      "Marathon",
-      "Acharnae",
-      "Phaleron"
-    ]
+    "cities": ["Athens", "Piraeus", "Eleusis", "Marathon", "Salamis", "Brauron", "Sunium"]
   },
   {
     "name": "Sparta",
     "leaderName": "Leonidas I",
-    "outerColor": [180, 65, 55],
-    "innerColor": [45, 25, 25],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Sparta",
-      "Amyclae",
-      "Gytheion",
-      "Pylos",
-      "Messene",
-      "Sellasia"
-    ]
+    "outerColor": [183, 74, 65],
+    "innerColor": [43, 24, 24],
+    "cities": ["Sparta", "Amyclae", "Gythium", "Sellasia", "Geronthrae", "Las", "Pylos"]
   },
   {
     "name": "Byzantium",
     "leaderName": "Basil II",
     "outerColor": [145, 105, 185],
     "innerColor": [45, 30, 70],
-    "preferredVictoryType": "Scientific",
-    "cities": [
-      "Constantinople",
-      "Thessalonica",
-      "Adrianople",
-      "Nicaea",
-      "Trebizond",
-      "Philippopolis",
-      "Cherson"
-    ]
+    "cities": ["Constantinople", "Nicaea", "Nicomedia", "Thessalonica", "Adrianople", "Trebizond", "Cherson"]
   },
   {
     "name": "Bulgaria",
     "leaderName": "Simeon I",
     "outerColor": [100, 155, 110],
     "innerColor": [30, 55, 40],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Pliska",
-      "Preslav",
-      "Tarnovo",
-      "Sofia",
-      "Vidin",
-      "Varna",
-      "Ohrid"
-    ]
+    "cities": ["Pliska", "Preslav", "Tarnovo", "Sofia", "Plovdiv", "Vidin", "Varna"]
   },
   {
     "name": "Serbia",
     "leaderName": "Stefan Dušan",
-    "outerColor": [190, 65, 65],
-    "innerColor": [65, 25, 30],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Ras",
-      "Prizren",
-      "Skopje",
-      "Pristina",
-      "Belgrade",
-      "Novi Pazar",
-      "Kruševac"
-    ]
+    "outerColor": [193, 74, 74],
+    "innerColor": [62, 24, 29],
+    "cities": ["Ras", "Prizren", "Skopje", "Belgrade", "Novi Pazar", "Smederevo", "Kruševac"]
   },
   {
     "name": "Bosnia",
     "leaderName": "Tvrtko I",
-    "outerColor": [65, 110, 175],
-    "innerColor": [25, 40, 70],
-    "preferredVictoryType": "Diplomatic",
-    "cities": [
-      "Bobovac",
-      "Visoko",
-      "Jajce",
-      "Srebrenica",
-      "Mostar",
-      "Travnik"
-    ]
+    "outerColor": [74, 117, 179],
+    "innerColor": [24, 38, 67],
+    "cities": ["Visoko", "Bobovac", "Jajce", "Srebrenik", "Vrhbosna", "Banja Luka", "Mostar"]
   },
   {
     "name": "Albania",
     "leaderName": "Skanderbeg",
-    "outerColor": [175, 35, 40],
-    "innerColor": [55, 20, 25],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Krujë",
-      "Lezhë",
-      "Shkodër",
-      "Durrës",
-      "Berat",
-      "Gjirokastër",
-      "Vlora"
-    ]
+    "outerColor": [187, 68, 72],
+    "innerColor": [49, 19, 23],
+    "cities": ["Krujë", "Lezhë", "Shkodër", "Durrës", "Berat", "Gjirokastër", "Vlorë"]
   },
   {
     "name": "Greece",
     "leaderName": "Ioannis Kapodistrias",
     "outerColor": [70, 140, 190],
     "innerColor": [25, 45, 70],
-    "preferredVictoryType": "Scientific",
-    "cities": [
-      "Athens",
-      "Thessaloniki",
-      "Patras",
-      "Corinth",
-      "Nafplio",
-      "Tripoli",
-      "Larissa",
-      "Ioannina"
-    ]
+    "cities": ["Athens", "Nafplio", "Tripoli", "Patras", "Corinth", "Messolonghi", "Thessaloniki"]
   },
   {
     "name": "Ottoman Empire",
     "leaderName": "Mehmed II",
-    "outerColor": [65, 120, 85],
-    "innerColor": [25, 50, 35],
-    "preferredVictoryType": "Domination",
-    "cities": [
-      "Edirne",
-      "Constantinople",
-      "Bursa",
-      "Sofia",
-      "Skopje",
-      "Thessaloniki",
-      "Prizren",
-      "Sarajevo",
-      "Belgrade"
-    ]
+    "outerColor": [74, 126, 93],
+    "innerColor": [24, 48, 34],
+    "cities": ["Edirne", "Constantinople", "Bursa", "Istanbul", "Skopje", "Sofia", "Sarajevo", "Ioannina"]
   },
   {
     "name": "Barbarians",

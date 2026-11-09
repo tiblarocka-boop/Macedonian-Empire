@@ -1,18 +1,301 @@
+
 [
-    {
-        "name": "Settler",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
-    },
-    {
-		"name": "Rifleman",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 5,
-        "range": 2,
-		"rangedStrength": 7,
-		"cost": 40,
-		"attackSound": "shot"
-	}
+  {
+    "name": "Hunter",
+    "unitType": "Scout",
+    "movement": 2,
+    "strength": 5,
+    "cost": 10
+  },
+  {
+    "name": "Tribal Warrior",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 7,
+    "cost": 15,
+    "requiredTech": "Primitive Tools"
+  },
+  {
+    "name": "Tribal Archer",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "cost": 20,
+    "requiredTech": "Hunting"
+  },
+  {
+    "name": "Spearman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 12,
+    "cost": 35,
+    "requiredTech": "Bronze Working"
+  },
+  {
+    "name": "Archer",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 7,
+    "rangedStrength": 12,
+    "range": 2,
+    "cost": 40,
+    "requiredTech": "Bronze Weapons"
+  },
+  {
+    "name": "Horseman",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 16,
+    "cost": 50,
+    "requiredTech": "Animal Domestication"
+  },
+  {
+    "name": "Swordsman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 20,
+    "cost": 60,
+    "requiredTech": "Iron Working"
+  },
+  {
+    "name": "Trireme",
+    "unitType": "WaterMelee",
+    "movement": 4,
+    "strength": 15,
+    "cost": 50,
+    "requiredTech": "Shipbuilding"
+  },
+  {
+    "name": "Catapult",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 2,
+    "cost": 70,
+    "requiredTech": "Siege Warfare"
+  },
+  {
+    "name": "Longswordsman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 30,
+    "cost": 100,
+    "requiredTech": "Advanced Metallurgy"
+  },
+  {
+    "name": "Knight",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 35,
+    "cost": 110,
+    "requiredTech": "Professional Cavalry"
+  },
+  {
+    "name": "Lancer",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 40,
+    "cost": 130,
+    "requiredTech": "Professional Cavalry"
+  },
+  {
+    "name": "Musketman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 45,
+    "cost": 150,
+    "requiredTech": "Gunpowder"
+  },
+  {
+    "name": "Rifleman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 55,
+    "cost": 180,
+    "requiredTech": "Modern Rifles"
+  },
+  {
+    "name": "Cannon",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 15,
+    "rangedStrength": 35,
+    "range": 2,
+    "cost": 180,
+    "requiredTech": "Artillery"
+  },
+  {
+    "name": "Infantry",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 65,
+    "cost": 220,
+    "requiredTech": "Military Modernization"
+  },
+
+  {
+    "name": "Macedonian Phalanx",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 24,
+    "cost": 75,
+    "requiredTech": "Macedonian Phalanx",
+    "uniqueTo": "Macedon",
+    "replaces": "Spearman"
+  },
+  {
+    "name": "Hetairoi",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 22,
+    "cost": 85,
+    "requiredTech": "Macedonian Phalanx",
+    "uniqueTo": "Macedon",
+    "replaces": "Horseman"
+  },
+  {
+    "name": "Paeonian Cavalry",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 19,
+    "cost": 65,
+    "requiredTech": "Animal Domestication",
+    "uniqueTo": "Paeonia",
+    "replaces": "Horseman"
+  },
+  {
+    "name": "Illyrian Raider",
+    "unitType": "WaterMelee",
+    "movement": 5,
+    "strength": 20,
+    "cost": 65,
+    "requiredTech": "Shipbuilding",
+    "uniqueTo": "Illyria",
+    "replaces": "Trireme"
+  },
+  {
+    "name": "Dardanian Warrior",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 25,
+    "cost": 75,
+    "requiredTech": "Iron Working",
+    "uniqueTo": "Dardania",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Thracian Peltast",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 9,
+    "rangedStrength": 16,
+    "range": 2,
+    "cost": 55,
+    "requiredTech": "Bronze Weapons",
+    "uniqueTo": "Thrace",
+    "replaces": "Archer"
+  },
+  {
+    "name": "Epirote Phalanx",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 26,
+    "cost": 90,
+    "requiredTech": "Macedonian Phalanx",
+    "uniqueTo": "Epirus",
+    "replaces": "Spearman"
+  },
+  {
+    "name": "Athenian Hoplite",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 18,
+    "cost": 55,
+    "requiredTech": "Military Organization",
+    "uniqueTo": "Athens",
+    "replaces": "Spearman"
+  },
+  {
+    "name": "Spartan Hoplite",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 22,
+    "cost": 65,
+    "requiredTech": "Military Organization",
+    "uniqueTo": "Sparta",
+    "replaces": "Spearman"
+  },
+  {
+    "name": "Varangian Guard",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 38,
+    "cost": 120,
+    "requiredTech": "Advanced Metallurgy",
+    "uniqueTo": "Byzantium",
+    "replaces": "Longswordsman"
+  },
+  {
+    "name": "Bulgarian Heavy Cavalry",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 42,
+    "cost": 125,
+    "requiredTech": "Professional Cavalry",
+    "uniqueTo": "Bulgaria",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Serbian Hussar",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 43,
+    "cost": 135,
+    "requiredTech": "Professional Cavalry",
+    "uniqueTo": "Serbia",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Bosnian Knight",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 42,
+    "cost": 125,
+    "requiredTech": "Professional Cavalry",
+    "uniqueTo": "Bosnia",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Albanian Stradiot",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 48,
+    "cost": 155,
+    "requiredTech": "Professional Cavalry",
+    "uniqueTo": "Albania",
+    "replaces": "Lancer"
+  },
+  {
+    "name": "Greek Evzone",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 60,
+    "cost": 190,
+    "requiredTech": "Modern Rifles",
+    "uniqueTo": "Greece",
+    "replaces": "Rifleman"
+  },
+  {
+    "name": "Janissary",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 50,
+    "cost": 155,
+    "requiredTech": "Janissary Organization",
+    "uniqueTo": "Ottoman Empire",
+    "replaces": "Musketman"
+  }
 ]

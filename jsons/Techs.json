@@ -1,0 +1,533 @@
+
+[
+  {
+    "columnNumber": 0,
+    "era": "Palaeolithic Era",
+    "techCost": 10,
+    "buildingCost": 20,
+    "wonderCost": 100,
+    "techs": [
+      {
+        "name": "Primitive Tools",
+        "row": 0,
+        "uniques": ["Starting tech"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Mesolithic Era",
+    "techCost": 20,
+    "buildingCost": 30,
+    "wonderCost": 120,
+    "techs": [
+      {
+        "name": "Hunting",
+        "row": 0,
+        "prerequisites": ["Primitive Tools"]
+      },
+      {
+        "name": "Fire Making",
+        "row": 1,
+        "prerequisites": ["Primitive Tools"]
+      },
+      {
+        "name": "Fishing",
+        "row": 2,
+        "prerequisites": ["Primitive Tools"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Neolithic Era",
+    "techCost": 35,
+    "buildingCost": 40,
+    "wonderCost": 150,
+    "techs": [
+      {
+        "name": "Agriculture",
+        "row": 0,
+        "prerequisites": ["Fire Making"]
+      },
+      {
+        "name": "Animal Domestication",
+        "row": 1,
+        "prerequisites": ["Hunting"]
+      },
+      {
+        "name": "Pottery",
+        "row": 2,
+        "prerequisites": ["Agriculture"]
+      },
+      {
+        "name": "Permanent Settlements",
+        "row": 3,
+        "prerequisites": ["Agriculture", "Animal Domestication"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Chalcolithic Era",
+    "techCost": 55,
+    "buildingCost": 50,
+    "wonderCost": 180,
+    "techs": [
+      {
+        "name": "Copper Working",
+        "row": 0,
+        "prerequisites": ["Pottery"]
+      },
+      {
+        "name": "Early Trade",
+        "row": 1,
+        "prerequisites": ["Permanent Settlements"]
+      },
+      {
+        "name": "Irrigation",
+        "row": 2,
+        "prerequisites": ["Agriculture"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Bronze Age",
+    "techCost": 85,
+    "buildingCost": 65,
+    "wonderCost": 200,
+    "techs": [
+      {
+        "name": "Bronze Working",
+        "row": 0,
+        "prerequisites": ["Copper Working"]
+      },
+      {
+        "name": "Bronze Weapons",
+        "row": 1,
+        "prerequisites": ["Bronze Working"]
+      },
+      {
+        "name": "Early Writing",
+        "row": 2,
+        "prerequisites": ["Early Trade"]
+      },
+      {
+        "name": "Shipbuilding",
+        "row": 3,
+        "prerequisites": ["Early Trade"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Iron Age",
+    "techCost": 120,
+    "buildingCost": 80,
+    "wonderCost": 240,
+    "techs": [
+      {
+        "name": "Iron Working",
+        "row": 0,
+        "prerequisites": ["Bronze Weapons"]
+      },
+      {
+        "name": "Iron Weapons",
+        "row": 1,
+        "prerequisites": ["Iron Working"]
+      },
+      {
+        "name": "Fortifications",
+        "row": 2,
+        "prerequisites": ["Iron Working"]
+      },
+      {
+        "name": "Advanced Agriculture",
+        "row": 3,
+        "prerequisites": ["Irrigation"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Classical Balkan Era",
+    "techCost": 170,
+    "buildingCost": 100,
+    "wonderCost": 280,
+    "techs": [
+      {
+        "name": "Greek Philosophy",
+        "row": 0,
+        "prerequisites": ["Early Writing"]
+      },
+      {
+        "name": "Military Organization",
+        "row": 1,
+        "prerequisites": ["Iron Weapons"]
+      },
+      {
+        "name": "Coinage",
+        "row": 2,
+        "prerequisites": ["Early Trade"]
+      },
+      {
+        "name": "Classical Architecture",
+        "row": 3,
+        "prerequisites": ["Fortifications"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Macedonian Era",
+    "techCost": 230,
+    "buildingCost": 120,
+    "wonderCost": 320,
+    "techs": [
+      {
+        "name": "Macedonian Phalanx",
+        "row": 0,
+        "prerequisites": ["Military Organization"]
+      },
+      {
+        "name": "Siege Warfare",
+        "row": 1,
+        "prerequisites": ["Fortifications"]
+      },
+      {
+        "name": "Royal Administration",
+        "row": 2,
+        "prerequisites": ["Coinage"]
+      },
+      {
+        "name": "Advanced Shipbuilding",
+        "row": 3,
+        "prerequisites": ["Shipbuilding"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Hellenistic Era",
+    "techCost": 300,
+    "buildingCost": 140,
+    "wonderCost": 360,
+    "techs": [
+      {
+        "name": "Hellenistic Engineering",
+        "row": 0,
+        "prerequisites": ["Siege Warfare"]
+      },
+      {
+        "name": "Military Tactics",
+        "row": 1,
+        "prerequisites": ["Macedonian Phalanx"]
+      },
+      {
+        "name": "Advanced Mathematics",
+        "row": 2,
+        "prerequisites": ["Greek Philosophy"]
+      },
+      {
+        "name": "International Trade",
+        "row": 3,
+        "prerequisites": ["Royal Administration"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 9,
+    "era": "Roman Era",
+    "techCost": 400,
+    "buildingCost": 160,
+    "wonderCost": 400,
+    "techs": [
+      {
+        "name": "Roman Roads",
+        "row": 0,
+        "prerequisites": ["Hellenistic Engineering"]
+      },
+      {
+        "name": "Professional Armies",
+        "row": 1,
+        "prerequisites": ["Military Tactics"]
+      },
+      {
+        "name": "Advanced Construction",
+        "row": 2,
+        "prerequisites": ["Advanced Mathematics"]
+      },
+      {
+        "name": "Imperial Administration",
+        "row": 3,
+        "prerequisites": ["International Trade"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 10,
+    "era": "Migration Era",
+    "techCost": 500,
+    "buildingCost": 180,
+    "wonderCost": 440,
+    "techs": [
+      {
+        "name": "Tribal Warfare",
+        "row": 0,
+        "prerequisites": ["Professional Armies"]
+      },
+      {
+        "name": "Mounted Warfare",
+        "row": 1,
+        "prerequisites": ["Roman Roads"]
+      },
+      {
+        "name": "Early Feudalism",
+        "row": 2,
+        "prerequisites": ["Imperial Administration"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 11,
+    "era": "Byzantine Era",
+    "techCost": 600,
+    "buildingCost": 200,
+    "wonderCost": 480,
+    "techs": [
+      {
+        "name": "Greek Fire",
+        "row": 0,
+        "prerequisites": ["Advanced Shipbuilding"]
+      },
+      {
+        "name": "Byzantine Administration",
+        "row": 1,
+        "prerequisites": ["Early Feudalism"]
+      },
+      {
+        "name": "Religious Institutions",
+        "row": 2,
+        "prerequisites": ["Imperial Administration"]
+      },
+      {
+        "name": "Heavy Cavalry",
+        "row": 3,
+        "prerequisites": ["Mounted Warfare"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 12,
+    "era": "Medieval Balkan Era",
+    "techCost": 700,
+    "buildingCost": 220,
+    "wonderCost": 520,
+    "techs": [
+      {
+        "name": "Medieval Fortresses",
+        "row": 0,
+        "prerequisites": ["Byzantine Administration"]
+      },
+      {
+        "name": "Feudal Armies",
+        "row": 1,
+        "prerequisites": ["Heavy Cavalry"]
+      },
+      {
+        "name": "Balkan Trade Routes",
+        "row": 2,
+        "prerequisites": ["International Trade"]
+      },
+      {
+        "name": "Medieval Universities",
+        "row": 3,
+        "prerequisites": ["Religious Institutions"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 13,
+    "era": "Late Medieval Era",
+    "techCost": 820,
+    "buildingCost": 240,
+    "wonderCost": 560,
+    "techs": [
+      {
+        "name": "Gunpowder",
+        "row": 0,
+        "prerequisites": ["Medieval Fortresses"]
+      },
+      {
+        "name": "Professional Cavalry",
+        "row": 1,
+        "prerequisites": ["Feudal Armies"]
+      },
+      {
+        "name": "Advanced Metallurgy",
+        "row": 2,
+        "prerequisites": ["Medieval Universities"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 14,
+    "era": "Ottoman Conquest Era",
+    "techCost": 950,
+    "buildingCost": 260,
+    "wonderCost": 600,
+    "techs": [
+      {
+        "name": "Artillery",
+        "row": 0,
+        "prerequisites": ["Gunpowder"]
+      },
+      {
+        "name": "Janissary Organization",
+        "row": 1,
+        "prerequisites": ["Gunpowder"]
+      },
+      {
+        "name": "Siege Cannons",
+        "row": 2,
+        "prerequisites": ["Artillery"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 15,
+    "era": "Ottoman Classical Era",
+    "techCost": 1100,
+    "buildingCost": 280,
+    "wonderCost": 640,
+    "techs": [
+      {
+        "name": "Ottoman Administration",
+        "row": 0,
+        "prerequisites": ["Janissary Organization"]
+      },
+      {
+        "name": "Advanced Artillery",
+        "row": 1,
+        "prerequisites": ["Siege Cannons"]
+      },
+      {
+        "name": "Naval Warfare",
+        "row": 2,
+        "prerequisites": ["Advanced Shipbuilding"]
+      },
+      {
+        "name": "Imperial Trade Networks",
+        "row": 3,
+        "prerequisites": ["Ottoman Administration"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 16,
+    "era": "Ottoman Decline Era",
+    "techCost": 1300,
+    "buildingCost": 300,
+    "wonderCost": 680,
+    "techs": [
+      {
+        "name": "Military Reforms",
+        "row": 0,
+        "prerequisites": ["Advanced Artillery"]
+      },
+      {
+        "name": "European Diplomacy",
+        "row": 1,
+        "prerequisites": ["Imperial Trade Networks"]
+      },
+      {
+        "name": "Early Industrialization",
+        "row": 2,
+        "prerequisites": ["Advanced Metallurgy"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 17,
+    "era": "Balkan National Revival",
+    "techCost": 1500,
+    "buildingCost": 320,
+    "wonderCost": 720,
+    "techs": [
+      {
+        "name": "Nationalism",
+        "row": 0,
+        "prerequisites": ["European Diplomacy"]
+      },
+      {
+        "name": "Modern Education",
+        "row": 1,
+        "prerequisites": ["Medieval Universities"]
+      },
+      {
+        "name": "Steam Power",
+        "row": 2,
+        "prerequisites": ["Early Industrialization"]
+      },
+      {
+        "name": "Modern Rifles",
+        "row": 3,
+        "prerequisites": ["Military Reforms"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 18,
+    "era": "Balkan Independence Era",
+    "techCost": 1750,
+    "buildingCost": 340,
+    "wonderCost": 760,
+    "techs": [
+      {
+        "name": "Railways",
+        "row": 0,
+        "prerequisites": ["Steam Power"]
+      },
+      {
+        "name": "Modern Artillery",
+        "row": 1,
+        "prerequisites": ["Modern Rifles"]
+      },
+      {
+        "name": "Industrial Production",
+        "row": 2,
+        "prerequisites": ["Steam Power"]
+      },
+      {
+        "name": "National Armies",
+        "row": 3,
+        "prerequisites": ["Nationalism"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 19,
+    "era": "Ottoman Collapse Era",
+    "techCost": 2000,
+    "buildingCost": 360,
+    "wonderCost": 800,
+    "techs": [
+      {
+        "name": "Military Modernization",
+        "row": 0,
+        "prerequisites": ["Modern Artillery", "National Armies"]
+      },
+      {
+        "name": "Telegraph",
+        "row": 1,
+        "prerequisites": ["Railways"]
+      },
+      {
+        "name": "Modern Logistics",
+        "row": 2,
+        "prerequisites": ["Industrial Production"]
+      }
+    ]
+  }
+]

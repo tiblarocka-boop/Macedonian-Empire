@@ -1,6 +1,32 @@
 
 [
   {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 80,
+    "uniques": [
+      "Founds a new city"
+    ]
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 50,
+    "requiredTech": "Agriculture",
+    "uniques": [
+      "Can build [Land] improvements on tiles"
+    ]
+  },
+  {
+    "name": "Warrior",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 8,
+    "cost": 20
+  },
+  {
     "name": "Hunter",
     "unitType": "Scout",
     "movement": 2,
@@ -12,8 +38,7 @@
     "unitType": "Melee",
     "movement": 2,
     "strength": 7,
-    "cost": 15,
-    "requiredTech": "Primitive Tools"
+    "cost": 15
   },
   {
     "name": "Tribal Archer",
@@ -135,7 +160,6 @@
     "cost": 220,
     "requiredTech": "Military Modernization"
   },
-
   {
     "name": "Macedonian Phalanx",
     "unitType": "Melee",

@@ -9,8 +9,7 @@
     "techs": [
       {
         "name": "Primitive Tools",
-        "row": 0,
-        "uniques": ["Starting tech"]
+        "row": 0
       }
     ]
   },
@@ -58,12 +57,12 @@
       {
         "name": "Pottery",
         "row": 2,
-        "prerequisites": ["Agriculture"]
+        "prerequisites": ["Fire Making"]
       },
       {
         "name": "Permanent Settlements",
         "row": 3,
-        "prerequisites": ["Agriculture", "Animal Domestication"]
+        "prerequisites": ["Hunting", "Fire Making"]
       }
     ]
   },
@@ -106,7 +105,7 @@
       {
         "name": "Bronze Weapons",
         "row": 1,
-        "prerequisites": ["Bronze Working"]
+        "prerequisites": ["Copper Working"]
       },
       {
         "name": "Early Writing",
@@ -135,12 +134,12 @@
       {
         "name": "Iron Weapons",
         "row": 1,
-        "prerequisites": ["Iron Working"]
+        "prerequisites": ["Bronze Weapons"]
       },
       {
         "name": "Fortifications",
         "row": 2,
-        "prerequisites": ["Iron Working"]
+        "prerequisites": ["Bronze Working"]
       },
       {
         "name": "Advanced Agriculture",

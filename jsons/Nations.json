@@ -1,41 +1,214 @@
+
 [
-    {
-		"name": "Adelle Corp",
-		"leaderName": "Kane",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	},
-
-	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	}
+  {
+    "name": "Macedon",
+    "leaderName": "Alexander the Great",
+    "adjective": "Macedonian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "favoredReligion": "Pantheon",
+    "color": [220, 180, 45],
+    "innerColor": [35, 35, 35],
+    "unique": [
+      "Macedonian Hegemony: +15% Production towards military units",
+      "[Macedonian Phalanx] replaces [Spearman]",
+      "[Hetairoi] replaces [Horseman]"
+    ]
+  },
+  {
+    "name": "Paeonia",
+    "leaderName": "Agis",
+    "adjective": "Paeonian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Grassland"],
+    "color": [110, 150, 80],
+    "innerColor": [35, 45, 25],
+    "unique": [
+      "Mountain Warriors: Units receive a combat bonus when fighting in hills",
+      "[Paeonian Cavalry] replaces [Horseman]",
+      "[Hill Fort] replaces [Barracks]"
+    ]
+  },
+  {
+    "name": "Illyria",
+    "leaderName": "Teuta",
+    "adjective": "Illyrian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Coast"],
+    "color": [75, 125, 155],
+    "innerColor": [25, 45, 65],
+    "unique": [
+      "Adriatic Raiders: Naval units receive increased combat strength",
+      "[Illyrian Raider] replaces [Trireme]",
+      "[Warrior Hall] replaces [Barracks]"
+    ]
+  },
+  {
+    "name": "Dardania",
+    "leaderName": "Bato",
+    "adjective": "Dardanian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "color": [130, 100, 75],
+    "innerColor": [55, 35, 25],
+    "unique": [
+      "Guardians of the Mountains: Defensive units gain a combat bonus in friendly territory",
+      "[Dardanian Warrior] replaces [Swordsman]",
+      "[Mountain Stronghold] replaces [Walls]"
+    ]
+  },
+  {
+    "name": "Thrace",
+    "leaderName": "Seuthes III",
+    "adjective": "Thracian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Forest"],
+    "color": [170, 90, 75],
+    "innerColor": [55, 30, 30],
+    "unique": [
+      "Warrior Traditions: Land units gain additional experience",
+      "[Thracian Peltast] replaces [Archer]",
+      "[Royal Tomb] replaces [Monument]"
+    ]
+  },
+  {
+    "name": "Epirus",
+    "leaderName": "Pyrrhus",
+    "adjective": "Epirote",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "color": [150, 125, 85],
+    "innerColor": [45, 40, 30],
+    "unique": [
+      "Pyrrhic Warfare: Military units are stronger but more expensive",
+      "[Epirote Phalanx] replaces [Spearman]",
+      "[Royal Palace] replaces [Palace]"
+    ]
+  },
+  {
+    "name": "Athens",
+    "leaderName": "Pericles",
+    "adjective": "Athenian",
+    "preferredVictoryType": "Scientific",
+    "startBias": ["Coast"],
+    "color": [80, 150, 190],
+    "innerColor": [25, 45, 70],
+    "unique": [
+      "Cradle of Democracy: +15% Science in the capital",
+      "[Athenian Hoplite] replaces [Spearman]",
+      "[Academy] replaces [Library]"
+    ]
+  },
+  {
+    "name": "Sparta",
+    "leaderName": "Leonidas I",
+    "adjective": "Spartan",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "color": [180, 65, 55],
+    "innerColor": [45, 25, 25],
+    "unique": [
+      "Spartan Discipline: Military units receive additional experience",
+      "[Spartan Hoplite] replaces [Spearman]",
+      "[Agoge] replaces [Barracks]"
+    ]
+  },
+  {
+    "name": "Byzantium",
+    "leaderName": "Basil II",
+    "adjective": "Byzantine",
+    "preferredVictoryType": "Scientific",
+    "startBias": ["Coast"],
+    "color": [145, 105, 185],
+    "innerColor": [45, 30, 70],
+    "unique": [
+      "Imperial Legacy: +10% Gold and Science",
+      "[Varangian Guard] replaces [Longswordsman]",
+      "[Hippodrome] replaces [Colosseum]"
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "leaderName": "Simeon I",
+    "adjective": "Bulgarian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Grassland"],
+    "color": [100, 155, 110],
+    "innerColor": [30, 55, 40],
+    "unique": [
+      "Empire of the Balkans: +15% Production when building defensive structures",
+      "[Bulgarian Heavy Cavalry] replaces [Knight]",
+      "[Boyar Hall] replaces [Barracks]"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "leaderName": "Stefan Dušan",
+    "adjective": "Serbian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "color": [190, 65, 65],
+    "innerColor": [65, 25, 30],
+    "unique": [
+      "Imperial Ambition: +10% Production towards military units",
+      "[Serbian Hussar] replaces [Knight]",
+      "[Royal Court] replaces [Courthouse]"
+    ]
+  },
+  {
+    "name": "Bosnia",
+    "leaderName": "Tvrtko I",
+    "adjective": "Bosnian",
+    "preferredVictoryType": "Diplomatic",
+    "startBias": ["Hill"],
+    "color": [65, 110, 175],
+    "innerColor": [25, 40, 70],
+    "unique": [
+      "Kingdom of the Mountains: +1 Production from Hill tiles",
+      "[Bosnian Knight] replaces [Knight]",
+      "[Royal Fortress] replaces [Castle]"
+    ]
+  },
+  {
+    "name": "Albania",
+    "leaderName": "Skanderbeg",
+    "adjective": "Albanian",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "color": [175, 35, 40],
+    "innerColor": [55, 20, 25],
+    "unique": [
+      "Eagle of the Mountains: Units receive a combat bonus in hills and mountains",
+      "[Albanian Stradiot] replaces [Lancer]",
+      "[Kulla] replaces [Castle]"
+    ]
+  },
+  {
+    "name": "Greece",
+    "leaderName": "Ioannis Kapodistrias",
+    "adjective": "Greek",
+    "preferredVictoryType": "Scientific",
+    "startBias": ["Coast"],
+    "color": [70, 140, 190],
+    "innerColor": [25, 45, 70],
+    "unique": [
+      "Hellenic Revival: +10% Science and Culture",
+      "[Greek Evzone] replaces [Rifleman]",
+      "[National University] replaces [University]"
+    ]
+  },
+  {
+    "name": "Ottoman Empire",
+    "leaderName": "Mehmed II",
+    "adjective": "Ottoman",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Hill"],
+    "color": [65, 120, 85],
+    "innerColor": [25, 50, 35],
+    "unique": [
+      "Imperial Conquest: +15% Production towards siege units",
+      "[Janissary] replaces [Musketman]",
+      "[Grand Bazaar] replaces [Market]"
+    ]
+  }
 ]

@@ -1,11 +1,30 @@
 [
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
-    {
-        "name": "Infantry",
-        "movementType": "Land"
-    }
-    
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  {
+    "name": "Scout",
+    "movementType": "Land"
+  },
+  {
+    "name": "Melee",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ranged",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted",
+    "movementType": "Land"
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land"
+  },
+  {
+    "name": "WaterMelee",
+    "movementType": "Water"
+  }
 ]

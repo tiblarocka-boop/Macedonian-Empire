@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Ancient ruins",
+    "terrainsCanBeBuiltOn": [
+      "Tundra",
+      "Grassland",
+      "Plains",
+      "Hill",
+      "Desert"
+    ],
+    "uniques": [
+      "Comment [Point of Interest]",
+      "Unpillagable",
+      "Provides a random bonus when entered",
+      "Unbuildable",
+      "Cannot be built on [Snow] tiles <hidden from users>"
+    ]
+  }
+]
